@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/XYZ123/cover1.jpg",
+      "title": "Top free tools for frontend developers",
+      "author_img": "https://i.ibb.co/ABC456/author1.jpg",
+      "author": "Sana Malik",
+      "posted_date": "March 12, 2023",
+      "reading_time": 6,
+      "hashtags": [
+        "frontend",
+        "tools"
+      ]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/XYZ456/cover2.jpg",
+      "title": "10 APIs every developer should know",
+      "author_img": "https://i.ibb.co/ABC789/author2.jpg",
+      "author": "Zayan Ahmed",
+      "posted_date": "April 25, 2023",
+      "reading_time": 8,
+      "hashtags": [
+        "api",
+        "development"
+      ]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/XYZ789/cover3.jpg",
+      "title": "Free UI kits for web and mobile design",
+      "author_img": "https://i.ibb.co/ABC123/author3.jpg",
+      "author": "Hania Noor",
+      "posted_date": "May 14, 2023",
+      "reading_time": 5,
+      "hashtags": [
+        "uiux",
+        "design"
+      ]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/vvTfkcv/4.jpg",
+      "title": "Free images and resources collection for website",
+      "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+      "author": "Anmol Baloch",
+      "posted_date": "June 5, 2023",
+      "reading_time": 9,
+      "hashtags": [
+        "development",
+        "resources"
+      ]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/XYZ111/cover5.jpg",
+      "title": "Open source projects to contribute in 2025",
+      "author_img": "https://i.ibb.co/ABC222/author5.jpg",
+      "author": "Farhan Khan",
+      "posted_date": "January 18, 2025",
+      "reading_time": 7,
+      "hashtags": [
+        "opensource",
+        "community"
+      ]
+    }
+  ]
+  

@@ -1,23 +1,27 @@
 
 import './App.css'
+import Blogs from './components/Blogs/blogs'
+import Navbar from './components/Navbar/navbar'
 
 function App() {
-  function handleCLick() {
-    alert('Hello Niloy')
-  }
-  const handleClick3 =()=>{
-    alert('Hello Niloy3')
-  }
+ 
   return (
     <>
-      <h1>Niloy coding</h1>
-      <button onClick={handleCLick}>Click</button>
+        <Navbar />
+       
 
-      <button onClick={function handleCLick2(){
-        alert('Hello Niloy2')
-      }}>Click2</button>
-      
-      <button onClick={handleClick3}>Click Me3</button>
+        <div className='main-container flex text-center'>
+        
+  
+          <div className='left-container w-[70%]'>  
+           
+          <Blogs />
+          </div>
+          <div className='right-container w-[30%]'>
+            <h1>Reading time:0</h1>
+            <h1>BookMark count:0</h1>
+          </div>
+        </div>
     </>
   )
 }
