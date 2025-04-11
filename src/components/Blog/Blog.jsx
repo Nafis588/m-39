@@ -1,9 +1,9 @@
 import React from "react";
 import { IoBookmarksSharp } from "react-icons/io5";
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handleBookMark,handleMarkAsRead}) => {
+  
     
-    console.log(blog);
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-sm">
@@ -16,7 +16,9 @@ const Blog = ({blog}) => {
     <div className="author flex justify-around items-center">
         <h3>{blog.author}</h3>
         <img className="w-16" src={blog.author_img} alt="" />
-        <IoBookmarksSharp size={25}/>
+        <button onClick={()=>handleBookMark(blog)}>
+        <IoBookmarksSharp size={25} />
+        </button>
         </div>
     <h2 className="card-title">{blog.title}</h2>
     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
@@ -26,7 +28,7 @@ const Blog = ({blog}) => {
     }
     </div>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Mark as Read</button>
+      <button onClick={()=>handleMarkAsRead(blog.reading_time,blog.id)} className="btn btn-primary">Mark as Read</button>
     </div>
   </div>
 </div>
